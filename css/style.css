@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%; /* A changer selon la hauteur que tu souhaite */
+    background-color: white; /* Le fond de la page sera noir */
+    color: black; /* Le texte de la page sera blanc */
+
+}
+
+body, html {
+    margin: 0;padding: 0;
+
+
+}
+
+header {
+    background-color: black;
+
+}
+
+.m-left {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+color: white;
+text-align: center;
+
+}
+
+.m-left ul {
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+header .m-left ul li a {
+    width: 150;
+    background-color: black;
+    color: white;
+    text-decoration:none;
+}
+
+
+ 
